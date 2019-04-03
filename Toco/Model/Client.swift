@@ -7,10 +7,16 @@
 //
 
 import Foundation
+import UIKit
 
 class Client {
     var name: String?
     var address: Address?
     var phone: String?
+    var picture: UIImage?
     var notes: String?
+    
+    init(name: String, notes: String, picture: UIImage) {
+        
+    }
 }

@@ -19,6 +19,8 @@
 		CDC1F05122546AC300524E1C /* Outreach.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC1F05022546AC300524E1C /* Outreach.storyboard */; };
 		CDC1F05322546ACE00524E1C /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1F05222546ACE00524E1C /* Client.swift */; };
 		CDC1F05522546B7C00524E1C /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1F05422546B7C00524E1C /* Address.swift */; };
+		CDC1F05722546D5000524E1C /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1F05622546D5000524E1C /* PaymentVC.swift */; };
+		CDC1F0592254701F00524E1C /* PaymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1F0582254701F00524E1C /* PaymentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		CDC1F05022546AC300524E1C /* Outreach.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Outreach.storyboard; sourceTree = "<group>"; };
 		CDC1F05222546ACE00524E1C /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		CDC1F05422546B7C00524E1C /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		CDC1F05622546D5000524E1C /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
+		CDC1F0582254701F00524E1C /* PaymentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,7 @@
 				CDC1F04C22546A7700524E1C /* Payment.storyboard */,
 				CDC1F04E22546A8200524E1C /* Discovery.storyboard */,
 				CDC1F05022546AC300524E1C /* Outreach.storyboard */,
+				CDC1F0582254701F00524E1C /* PaymentCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 		CDC1F04B22546A6100524E1C /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				CDC1F05622546D5000524E1C /* PaymentVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -298,9 +304,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDC1F0592254701F00524E1C /* PaymentCell.swift in Sources */,
 				CDC1F01D2254679E00524E1C /* ViewController.swift in Sources */,
 				CDC1F01B2254679E00524E1C /* AppDelegate.swift in Sources */,
 				CDC1F05522546B7C00524E1C /* Address.swift in Sources */,
+				CDC1F05722546D5000524E1C /* PaymentVC.swift in Sources */,
 				CDC1F05322546ACE00524E1C /* Client.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

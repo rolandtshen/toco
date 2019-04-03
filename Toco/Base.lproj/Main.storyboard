@@ -19,10 +19,10 @@
             </objects>
             <point key="canvasLocation" x="730" y="-59"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--Payment-->
         <scene sceneID="CiV-2Q-S6w">
             <objects>
-                <viewControllerPlaceholder id="S44-rB-E1z" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Payment" id="S44-rB-E1z" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="AP3-VN-mva"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CzM-IL-hYF" userLabel="First Responder" sceneMemberID="firstResponder"/>
