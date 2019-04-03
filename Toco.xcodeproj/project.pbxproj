@@ -14,6 +14,11 @@
 		CDC1F025225467A000524E1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC1F023225467A000524E1C /* LaunchScreen.storyboard */; };
 		CDC1F030225467A000524E1C /* TocoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1F02F225467A000524E1C /* TocoTests.swift */; };
 		CDC1F03B225467A000524E1C /* TocoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1F03A225467A000524E1C /* TocoUITests.swift */; };
+		CDC1F04D22546A7700524E1C /* Payment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC1F04C22546A7700524E1C /* Payment.storyboard */; };
+		CDC1F04F22546A8200524E1C /* Discovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC1F04E22546A8200524E1C /* Discovery.storyboard */; };
+		CDC1F05122546AC300524E1C /* Outreach.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC1F05022546AC300524E1C /* Outreach.storyboard */; };
+		CDC1F05322546ACE00524E1C /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1F05222546ACE00524E1C /* Client.swift */; };
+		CDC1F05522546B7C00524E1C /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1F05422546B7C00524E1C /* Address.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		CDC1F036225467A000524E1C /* TocoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TocoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC1F03A225467A000524E1C /* TocoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TocoUITests.swift; sourceTree = "<group>"; };
 		CDC1F03C225467A000524E1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC1F04C22546A7700524E1C /* Payment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Payment.storyboard; sourceTree = "<group>"; };
+		CDC1F04E22546A8200524E1C /* Discovery.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Discovery.storyboard; sourceTree = "<group>"; };
+		CDC1F05022546AC300524E1C /* Outreach.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Outreach.storyboard; sourceTree = "<group>"; };
+		CDC1F05222546ACE00524E1C /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		CDC1F05422546B7C00524E1C /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,9 @@
 		CDC1F0192254679E00524E1C /* Toco */ = {
 			isa = PBXGroup;
 			children = (
+				CDC1F04B22546A6100524E1C /* ViewController */,
+				CDC1F04A22546A5600524E1C /* Model */,
+				CDC1F04822546A4800524E1C /* View */,
 				CDC1F01A2254679E00524E1C /* AppDelegate.swift */,
 				CDC1F01C2254679E00524E1C /* ViewController.swift */,
 				CDC1F01E2254679E00524E1C /* Main.storyboard */,
@@ -123,6 +136,32 @@
 				CDC1F03C225467A000524E1C /* Info.plist */,
 			);
 			path = TocoUITests;
+			sourceTree = "<group>";
+		};
+		CDC1F04822546A4800524E1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDC1F04C22546A7700524E1C /* Payment.storyboard */,
+				CDC1F04E22546A8200524E1C /* Discovery.storyboard */,
+				CDC1F05022546AC300524E1C /* Outreach.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDC1F04A22546A5600524E1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDC1F05222546ACE00524E1C /* Client.swift */,
+				CDC1F05422546B7C00524E1C /* Address.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDC1F04B22546A6100524E1C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +268,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDC1F04F22546A8200524E1C /* Discovery.storyboard in Resources */,
 				CDC1F025225467A000524E1C /* LaunchScreen.storyboard in Resources */,
 				CDC1F022225467A000524E1C /* Assets.xcassets in Resources */,
+				CDC1F05122546AC300524E1C /* Outreach.storyboard in Resources */,
 				CDC1F0202254679E00524E1C /* Main.storyboard in Resources */,
+				CDC1F04D22546A7700524E1C /* Payment.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +300,8 @@
 			files = (
 				CDC1F01D2254679E00524E1C /* ViewController.swift in Sources */,
 				CDC1F01B2254679E00524E1C /* AppDelegate.swift in Sources */,
+				CDC1F05522546B7C00524E1C /* Address.swift in Sources */,
+				CDC1F05322546ACE00524E1C /* Client.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
