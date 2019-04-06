@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD81F02222583F28002D6018 /* Clients.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD81F02122583F28002D6018 /* Clients.swift */; };
 		CDC1F01B2254679E00524E1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1F01A2254679E00524E1C /* AppDelegate.swift */; };
 		CDC1F01D2254679E00524E1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1F01C2254679E00524E1C /* ViewController.swift */; };
 		CDC1F0202254679E00524E1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC1F01E2254679E00524E1C /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD81F02122583F28002D6018 /* Clients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clients.swift; sourceTree = "<group>"; };
 		CDC1F0172254679E00524E1C /* Toco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC1F01A2254679E00524E1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDC1F01C2254679E00524E1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 			children = (
 				CDC1F05222546ACE00524E1C /* Client.swift */,
 				CDC1F05422546B7C00524E1C /* Address.swift */,
+				CD81F02122583F28002D6018 /* Clients.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDC1F0592254701F00524E1C /* PaymentCell.swift in Sources */,
+				CD81F02222583F28002D6018 /* Clients.swift in Sources */,
 				CDC1F01D2254679E00524E1C /* ViewController.swift in Sources */,
 				CDC1F01B2254679E00524E1C /* AppDelegate.swift in Sources */,
 				CDC1F05522546B7C00524E1C /* Address.swift in Sources */,

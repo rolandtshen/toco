@@ -16,7 +16,11 @@ class Client {
     var picture: UIImage?
     var notes: String?
     
-    init(name: String, notes: String, picture: UIImage) {
-        
+    init(name: String, address: Address?, phone: String, notes: String?, picture: UIImage) {
+        self.name = name
+        self.address = address;
+        self.phone = phone;
+        self.picture = picture;
+        self.notes = notes;
     }
 }
