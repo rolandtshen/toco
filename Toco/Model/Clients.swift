@@ -11,12 +11,12 @@ import UIKit
 
 struct Clients {
     static var clients: [Client] = [
-        Client(name: "Aurora Manning", address: Address(), phone: "", notes: "", picture: UIImage()),
-        Client(name: "Markus Rubio", address: Address(), phone: "", notes: "", picture: UIImage()),
-        Client(name: "Stephen Belser", address: Address(), phone: "", notes: "", picture: UIImage()),
-        Client(name: "Chris Oxley", address: Address(), phone: "", notes: "", picture: UIImage()),
-        Client(name: "Sam Lexington", address: Address(), phone: "", notes: "", picture: UIImage()),
-        Client(name: "Janet Greenspan", address: Address(), phone: "", notes: "", picture: UIImage()),
-        Client(name: "Pharah Bernanky", address: Address(), phone: "", notes: "", picture: UIImage())
+        Client(name: "Aurora Manning", address: Address(), phone: "", notes: "", picture: UIImage(named: "default")!),
+        Client(name: "Markus Rubio", address: Address(), phone: "", notes: "", picture: UIImage(named: "default")!),
+        Client(name: "Stephen Belser", address: Address(), phone: "", notes: "", picture: UIImage(named: "default")!),
+        Client(name: "Chris Oxley", address: Address(), phone: "", notes: "", picture: UIImage(named: "default")!),
+        Client(name: "Sam Lexington", address: Address(), phone: "", notes: "", picture: UIImage(named: "default")!),
+        Client(name: "Janet Greenspan", address: Address(), phone: "", notes: "", picture: UIImage(named: "default")!),
+        Client(name: "Pharah Bernanky", address: Address(), phone: "", notes: "", picture: UIImage(named: "default")!)
     ]
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rov-n2-aEU">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--PaymentVC-->
+        <!--Payments-->
         <scene sceneID="Iqw-Tt-jSY">
             <objects>
                 <tableViewController id="XPE-zR-qyc" customClass="PaymentVC" customModule="Toco" customModuleProvider="target" sceneMemberID="viewController">
@@ -85,8 +85,33 @@
                             <outlet property="delegate" destination="XPE-zR-qyc" id="ahf-U4-hqt"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="Payments" id="jDG-ds-EGO"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hDh-er-Sem" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-492.75362318840581" y="173.4375"/>
+        </scene>
+        <!--Payments-->
+        <scene sceneID="foL-Rv-JRy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rov-n2-aEU" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Payments" id="ulJ-XT-NmL"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="pGX-xV-h0E">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.42352941179999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="XPE-zR-qyc" kind="relationship" relationship="rootViewController" id="JbS-j0-4KI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lgQ-92-nVQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1402.8985507246377" y="173.4375"/>
         </scene>
