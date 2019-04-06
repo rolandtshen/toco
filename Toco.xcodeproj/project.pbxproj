@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5654799EAFE44FC9F12D13B8 /* Pods_Toco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE49C619537E3009CF456A8 /* Pods_Toco.framework */; };
+		A7071C30DDD9B15094EA7CE5 /* Pods_TocoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68055B90C128F6D29CF9E39B /* Pods_TocoUITests.framework */; };
+		AE1F80D6E9077CBE0DFD3049 /* Pods_TocoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB81B434BAE54DE7AE96808 /* Pods_TocoTests.framework */; };
 		CD81F02222583F28002D6018 /* Clients.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD81F02122583F28002D6018 /* Clients.swift */; };
 		CDC1F01B2254679E00524E1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1F01A2254679E00524E1C /* AppDelegate.swift */; };
 		CDC1F01D2254679E00524E1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1F01C2254679E00524E1C /* ViewController.swift */; };
@@ -42,6 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CE49C619537E3009CF456A8 /* Pods_Toco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Toco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB81B434BAE54DE7AE96808 /* Pods_TocoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TocoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		248C100D0B2AD4CA98538046 /* Pods-Toco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toco.release.xcconfig"; path = "Target Support Files/Pods-Toco/Pods-Toco.release.xcconfig"; sourceTree = "<group>"; };
+		304D04B6464D3138BE5BAB1E /* Pods-TocoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TocoUITests.release.xcconfig"; path = "Target Support Files/Pods-TocoUITests/Pods-TocoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6622FD0F2F7C31089FDB42D4 /* Pods-TocoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TocoTests.release.xcconfig"; path = "Target Support Files/Pods-TocoTests/Pods-TocoTests.release.xcconfig"; sourceTree = "<group>"; };
+		68055B90C128F6D29CF9E39B /* Pods_TocoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TocoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FE402A92813B4B11E7B76D /* Pods-TocoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TocoUITests.debug.xcconfig"; path = "Target Support Files/Pods-TocoUITests/Pods-TocoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B58785CDDC6ED3E608714594 /* Pods-Toco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toco.debug.xcconfig"; path = "Target Support Files/Pods-Toco/Pods-Toco.debug.xcconfig"; sourceTree = "<group>"; };
 		CD81F02122583F28002D6018 /* Clients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clients.swift; sourceTree = "<group>"; };
 		CDC1F0172254679E00524E1C /* Toco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC1F01A2254679E00524E1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +74,7 @@
 		CDC1F05422546B7C00524E1C /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		CDC1F05622546D5000524E1C /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
 		CDC1F0582254701F00524E1C /* PaymentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCell.swift; sourceTree = "<group>"; };
+		DDC6AC02FC29D0BF73B0E0E1 /* Pods-TocoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TocoTests.debug.xcconfig"; path = "Target Support Files/Pods-TocoTests/Pods-TocoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5654799EAFE44FC9F12D13B8 /* Pods_Toco.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE1F80D6E9077CBE0DFD3049 /* Pods_TocoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +98,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7071C30DDD9B15094EA7CE5 /* Pods_TocoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		248DA74C274FEF23128FD441 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B58785CDDC6ED3E608714594 /* Pods-Toco.debug.xcconfig */,
+				248C100D0B2AD4CA98538046 /* Pods-Toco.release.xcconfig */,
+				DDC6AC02FC29D0BF73B0E0E1 /* Pods-TocoTests.debug.xcconfig */,
+				6622FD0F2F7C31089FDB42D4 /* Pods-TocoTests.release.xcconfig */,
+				A2FE402A92813B4B11E7B76D /* Pods-TocoUITests.debug.xcconfig */,
+				304D04B6464D3138BE5BAB1E /* Pods-TocoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		921E69DF35D4B0AC240545F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CE49C619537E3009CF456A8 /* Pods_Toco.framework */,
+				0DB81B434BAE54DE7AE96808 /* Pods_TocoTests.framework */,
+				68055B90C128F6D29CF9E39B /* Pods_TocoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CDC1F00E2254679E00524E1C = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +136,8 @@
 				CDC1F02E225467A000524E1C /* TocoTests */,
 				CDC1F039225467A000524E1C /* TocoUITests */,
 				CDC1F0182254679E00524E1C /* Products */,
+				248DA74C274FEF23128FD441 /* Pods */,
+				921E69DF35D4B0AC240545F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -180,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDC1F03F225467A000524E1C /* Build configuration list for PBXNativeTarget "Toco" */;
 			buildPhases = (
+				9AE67916834DC246162CBE2C /* [CP] Check Pods Manifest.lock */,
 				CDC1F0132254679E00524E1C /* Sources */,
 				CDC1F0142254679E00524E1C /* Frameworks */,
 				CDC1F0152254679E00524E1C /* Resources */,
+				2BCE454223D631425B549B25 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,6 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDC1F042225467A000524E1C /* Build configuration list for PBXNativeTarget "TocoTests" */;
 			buildPhases = (
+				08DEEF7EB021C8D3672BCFAA /* [CP] Check Pods Manifest.lock */,
 				CDC1F027225467A000524E1C /* Sources */,
 				CDC1F028225467A000524E1C /* Frameworks */,
 				CDC1F029225467A000524E1C /* Resources */,
@@ -215,6 +259,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDC1F045225467A000524E1C /* Build configuration list for PBXNativeTarget "TocoUITests" */;
 			buildPhases = (
+				3DE0F764FB4A9349EB633AC7 /* [CP] Check Pods Manifest.lock */,
 				CDC1F032225467A000524E1C /* Sources */,
 				CDC1F033225467A000524E1C /* Frameworks */,
 				CDC1F034225467A000524E1C /* Resources */,
@@ -301,6 +346,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08DEEF7EB021C8D3672BCFAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TocoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BCE454223D631425B549B25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Toco/Pods-Toco-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Toco/Pods-Toco-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DE0F764FB4A9349EB633AC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TocoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AE67916834DC246162CBE2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Toco-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CDC1F0132254679E00524E1C /* Sources */ = {
@@ -486,6 +622,7 @@
 		};
 		CDC1F040225467A000524E1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B58785CDDC6ED3E608714594 /* Pods-Toco.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +640,7 @@
 		};
 		CDC1F041225467A000524E1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 248C100D0B2AD4CA98538046 /* Pods-Toco.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -520,6 +658,7 @@
 		};
 		CDC1F043225467A000524E1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDC6AC02FC29D0BF73B0E0E1 /* Pods-TocoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +679,7 @@
 		};
 		CDC1F044225467A000524E1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6622FD0F2F7C31089FDB42D4 /* Pods-TocoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -560,6 +700,7 @@
 		};
 		CDC1F046225467A000524E1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2FE402A92813B4B11E7B76D /* Pods-TocoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -579,6 +720,7 @@
 		};
 		CDC1F047225467A000524E1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 304D04B6464D3138BE5BAB1E /* Pods-TocoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
