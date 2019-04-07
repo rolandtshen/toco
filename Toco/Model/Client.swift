@@ -23,4 +23,12 @@ class Client {
         self.picture = picture;
         self.notes = notes;
     }
+    
+    func getName() -> String {
+        return name ?? ""
+    }
+    
+    func getAddress() -> Address {
+        return address ?? Address()
+    }
 }

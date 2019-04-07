@@ -10,6 +10,8 @@
 		5654799EAFE44FC9F12D13B8 /* Pods_Toco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE49C619537E3009CF456A8 /* Pods_Toco.framework */; };
 		A7071C30DDD9B15094EA7CE5 /* Pods_TocoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68055B90C128F6D29CF9E39B /* Pods_TocoUITests.framework */; };
 		AE1F80D6E9077CBE0DFD3049 /* Pods_TocoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB81B434BAE54DE7AE96808 /* Pods_TocoTests.framework */; };
+		B77A62E92259A474008950DA /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A62E82259A474008950DA /* MapVC.swift */; };
+		B77A62EF2259A565008950DA /* Discovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77A62EE2259A565008950DA /* Discovery.storyboard */; };
 		CD81F02222583F28002D6018 /* Clients.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD81F02122583F28002D6018 /* Clients.swift */; };
 		CDC1F01B2254679E00524E1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1F01A2254679E00524E1C /* AppDelegate.swift */; };
 		CDC1F01D2254679E00524E1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1F01C2254679E00524E1C /* ViewController.swift */; };
@@ -19,7 +21,6 @@
 		CDC1F030225467A000524E1C /* TocoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1F02F225467A000524E1C /* TocoTests.swift */; };
 		CDC1F03B225467A000524E1C /* TocoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1F03A225467A000524E1C /* TocoUITests.swift */; };
 		CDC1F04D22546A7700524E1C /* Payment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC1F04C22546A7700524E1C /* Payment.storyboard */; };
-		CDC1F04F22546A8200524E1C /* Discovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC1F04E22546A8200524E1C /* Discovery.storyboard */; };
 		CDC1F05122546AC300524E1C /* Outreach.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC1F05022546AC300524E1C /* Outreach.storyboard */; };
 		CDC1F05322546ACE00524E1C /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1F05222546ACE00524E1C /* Client.swift */; };
 		CDC1F05522546B7C00524E1C /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1F05422546B7C00524E1C /* Address.swift */; };
@@ -53,6 +54,8 @@
 		68055B90C128F6D29CF9E39B /* Pods_TocoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TocoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FE402A92813B4B11E7B76D /* Pods-TocoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TocoUITests.debug.xcconfig"; path = "Target Support Files/Pods-TocoUITests/Pods-TocoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B58785CDDC6ED3E608714594 /* Pods-Toco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toco.debug.xcconfig"; path = "Target Support Files/Pods-Toco/Pods-Toco.debug.xcconfig"; sourceTree = "<group>"; };
+		B77A62E82259A474008950DA /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		B77A62EE2259A565008950DA /* Discovery.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Discovery.storyboard; sourceTree = "<group>"; };
 		CD81F02122583F28002D6018 /* Clients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clients.swift; sourceTree = "<group>"; };
 		CDC1F0172254679E00524E1C /* Toco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC1F01A2254679E00524E1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,7 +71,6 @@
 		CDC1F03A225467A000524E1C /* TocoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TocoUITests.swift; sourceTree = "<group>"; };
 		CDC1F03C225467A000524E1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDC1F04C22546A7700524E1C /* Payment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Payment.storyboard; sourceTree = "<group>"; };
-		CDC1F04E22546A8200524E1C /* Discovery.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Discovery.storyboard; sourceTree = "<group>"; };
 		CDC1F05022546AC300524E1C /* Outreach.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Outreach.storyboard; sourceTree = "<group>"; };
 		CDC1F05222546ACE00524E1C /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		CDC1F05422546B7C00524E1C /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
@@ -115,7 +117,6 @@
 				A2FE402A92813B4B11E7B76D /* Pods-TocoUITests.debug.xcconfig */,
 				304D04B6464D3138BE5BAB1E /* Pods-TocoUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -189,7 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				CDC1F04C22546A7700524E1C /* Payment.storyboard */,
-				CDC1F04E22546A8200524E1C /* Discovery.storyboard */,
+				B77A62EE2259A565008950DA /* Discovery.storyboard */,
 				CDC1F05022546AC300524E1C /* Outreach.storyboard */,
 				CDC1F0582254701F00524E1C /* PaymentCell.swift */,
 			);
@@ -209,6 +210,7 @@
 		CDC1F04B22546A6100524E1C /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				B77A62E82259A474008950DA /* MapVC.swift */,
 				CDC1F05622546D5000524E1C /* PaymentVC.swift */,
 			);
 			path = ViewController;
@@ -322,12 +324,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDC1F04F22546A8200524E1C /* Discovery.storyboard in Resources */,
 				CDC1F025225467A000524E1C /* LaunchScreen.storyboard in Resources */,
 				CDC1F022225467A000524E1C /* Assets.xcassets in Resources */,
 				CDC1F05122546AC300524E1C /* Outreach.storyboard in Resources */,
 				CDC1F0202254679E00524E1C /* Main.storyboard in Resources */,
 				CDC1F04D22546A7700524E1C /* Payment.storyboard in Resources */,
+				B77A62EF2259A565008950DA /* Discovery.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +450,7 @@
 				CDC1F01D2254679E00524E1C /* ViewController.swift in Sources */,
 				CDC1F01B2254679E00524E1C /* AppDelegate.swift in Sources */,
 				CDC1F05522546B7C00524E1C /* Address.swift in Sources */,
+				B77A62E92259A474008950DA /* MapVC.swift in Sources */,
 				CDC1F05722546D5000524E1C /* PaymentVC.swift in Sources */,
 				CDC1F05322546ACE00524E1C /* Client.swift in Sources */,
 			);
@@ -626,6 +629,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9827U82CZZ;
 				INFOPLIST_FILE = Toco/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -644,6 +648,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9827U82CZZ;
 				INFOPLIST_FILE = Toco/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -724,6 +729,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JGProgressHUD\"",
+					"$(SRCROOT)/**",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JGProgressHUD\"",
+				);
 				INFOPLIST_FILE = TocoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

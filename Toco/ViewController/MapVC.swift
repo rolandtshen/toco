@@ -24,8 +24,12 @@ class MapVC: UIViewController, MKMapViewDelegate, UISearchBarDelegate {
             map.addAnnotation(point)
         }
         
-        var region = MKCoordinateRegionMake(CLLocationCoordinate2D(latitude: 34.043627, longitude: -118.300673), MKCoordinateSpan(latitudeDelta: 10, longitudeDelta: 10))
+        var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 34.043627, longitude: -118.300673), span: MKCoordinateSpan(latitudeDelta: 10, longitudeDelta: 10))
         map.setRegion(region, animated: true)
+    }
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        print("searching")
     }
  
 }
