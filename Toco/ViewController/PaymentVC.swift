@@ -38,8 +38,7 @@ class PaymentVC: UITableViewController, UINavigationControllerDelegate, PaymentC
     
     func showPaymentMethods() {
         self.view.addSubview(popup)
-        popup.center = CGPoint(x: self.view.frame.size.width/2, y: self.view.frame.size.height/2)
-        
+        popup.center = self.view.center
         popup.alpha = 0.0;
         UIView.animate(withDuration: 0.25, animations: {
             self.popup.alpha = 1.0
