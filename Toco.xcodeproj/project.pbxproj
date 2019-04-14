@@ -13,6 +13,7 @@
 		B77A62E92259A474008950DA /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A62E82259A474008950DA /* MapVC.swift */; };
 		B77A62EF2259A565008950DA /* Discovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77A62EE2259A565008950DA /* Discovery.storyboard */; };
 		CD81F02222583F28002D6018 /* Clients.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD81F02122583F28002D6018 /* Clients.swift */; };
+		CD96D65A225DACE800183C9E /* ChoosePayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD96D659225DACE800183C9E /* ChoosePayment.swift */; };
 		CDC1F01B2254679E00524E1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1F01A2254679E00524E1C /* AppDelegate.swift */; };
 		CDC1F01D2254679E00524E1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1F01C2254679E00524E1C /* ViewController.swift */; };
 		CDC1F0202254679E00524E1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC1F01E2254679E00524E1C /* Main.storyboard */; };
@@ -57,6 +58,7 @@
 		B77A62E82259A474008950DA /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		B77A62EE2259A565008950DA /* Discovery.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Discovery.storyboard; sourceTree = "<group>"; };
 		CD81F02122583F28002D6018 /* Clients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clients.swift; sourceTree = "<group>"; };
+		CD96D659225DACE800183C9E /* ChoosePayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePayment.swift; sourceTree = "<group>"; };
 		CDC1F0172254679E00524E1C /* Toco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC1F01A2254679E00524E1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDC1F01C2254679E00524E1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				B77A62EE2259A565008950DA /* Discovery.storyboard */,
 				CDC1F05022546AC300524E1C /* Outreach.storyboard */,
 				CDC1F0582254701F00524E1C /* PaymentCell.swift */,
+				CD96D659225DACE800183C9E /* ChoosePayment.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -445,6 +448,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD96D65A225DACE800183C9E /* ChoosePayment.swift in Sources */,
 				CDC1F0592254701F00524E1C /* PaymentCell.swift in Sources */,
 				CD81F02222583F28002D6018 /* Clients.swift in Sources */,
 				CDC1F01D2254679E00524E1C /* ViewController.swift in Sources */,
