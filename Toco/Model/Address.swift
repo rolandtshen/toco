@@ -26,6 +26,11 @@ class Address {
     init(addressLine1: String, addressLine2:String, city:String, state:String, country:String, postalCode:String, longitude:String, latitude:String) {
     }
     
+    init(latitude:CLLocationDegrees, longitude:CLLocationDegrees) {
+        self.longitude = longitude
+        self.latitude = latitude
+    }
+    
     func getCoordinates() -> CLLocationCoordinate2D {
         return CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
     }

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IGz-zO-kCO">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IrM-vS-79c">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,42 +13,13 @@
         <scene sceneID="aAA-0f-ywk">
             <objects>
                 <viewController id="IGz-zO-kCO" customClass="MapVC" customModule="Toco" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="eWd-aA-wZp">
+                    <mapView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="q8i-z5-xwU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="IRg-04-Mdc">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <connections>
-                                    <outlet property="delegate" destination="IGz-zO-kCO" id="EsC-JH-ebV"/>
-                                </connections>
-                            </mapView>
-                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="XnF-pC-7ra">
-                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="9lW-on-mxU"/>
-                                </constraints>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <outlet property="delegate" destination="IGz-zO-kCO" id="3MK-8A-TCE"/>
-                                </connections>
-                            </searchBar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="gIP-uN-l93" firstAttribute="bottom" secondItem="IRg-04-Mdc" secondAttribute="bottom" id="D3O-XQ-asc"/>
-                            <constraint firstItem="gIP-uN-l93" firstAttribute="trailing" secondItem="IRg-04-Mdc" secondAttribute="trailing" id="NgJ-QW-ugF"/>
-                            <constraint firstItem="XnF-pC-7ra" firstAttribute="top" secondItem="gIP-uN-l93" secondAttribute="top" id="Tof-4z-JGD"/>
-                            <constraint firstItem="IRg-04-Mdc" firstAttribute="top" secondItem="gIP-uN-l93" secondAttribute="top" id="UrL-ON-iN9"/>
-                            <constraint firstItem="IRg-04-Mdc" firstAttribute="leading" secondItem="gIP-uN-l93" secondAttribute="leading" id="VxH-xG-b50"/>
-                            <constraint firstItem="XnF-pC-7ra" firstAttribute="leading" secondItem="gIP-uN-l93" secondAttribute="leading" id="iqD-jE-BRB"/>
-                            <constraint firstItem="XnF-pC-7ra" firstAttribute="trailing" secondItem="gIP-uN-l93" secondAttribute="trailing" id="tdb-TF-2EX"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="gIP-uN-l93"/>
-                    </view>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </mapView>
+                    <navigationItem key="navigationItem" id="rs4-n5-iqA"/>
                     <connections>
-                        <outlet property="map" destination="IRg-04-Mdc" id="FRH-y5-FNa"/>
-                        <outlet property="searchBar" destination="XnF-pC-7ra" id="5sW-Jg-GU1"/>
+                        <outlet property="map" destination="q8i-z5-xwU" id="Jbf-gP-0SF"/>
                         <outlet property="searchDisplayController" destination="uFg-dS-ZhD" id="fj5-34-yqx"/>
                     </connections>
                 </viewController>
@@ -63,7 +33,26 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="-68" y="-19"/>
+            <point key="canvasLocation" x="842.02898550724649" y="-19.419642857142858"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="HU4-nJ-kmp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IrM-vS-79c" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="LiT-Zo-eOo">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.13306871056556702" green="0.45845401287078857" blue="0.90721887350082397" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="IGz-zO-kCO" kind="relationship" relationship="rootViewController" id="pqg-hw-66C"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WWL-Gh-4aY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-68.115942028985515" y="-19.419642857142858"/>
         </scene>
     </scenes>
 </document>

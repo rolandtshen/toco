@@ -10,26 +10,21 @@ import Foundation
 import UIKit
 import MapKit
 
-class MapVC: UIViewController, MKMapViewDelegate, UISearchBarDelegate {
+class MapVC: UIViewController, MKMapViewDelegate {
     @IBOutlet weak var map: MKMapView!
-    @IBOutlet weak var searchBar: UISearchBar!
-    var clients:[Client] = [Client]()
-    
+
     override func viewDidLoad() {
         
-        for client:Client in clients {
-            var point = MKPointAnnotation()
+        for client:Client in Clients.clients {
+            let point = MKPointAnnotation()
             point.title = client.getName()
             point.coordinate = client.getAddress().getCoordinates()
             map.addAnnotation(point)
         }
         
-        var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 34.043627, longitude: -118.300673), span: MKCoordinateSpan(latitudeDelta: 10, longitudeDelta: 10))
+        let region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 34.065627, longitude: -118.319373), span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1))
         map.setRegion(region, animated: true)
     }
-    
-    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-        print("searching")
-    }
+
  
 }
