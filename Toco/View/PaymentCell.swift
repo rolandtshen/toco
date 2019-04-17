@@ -8,7 +8,10 @@
 
 import Foundation
 import UIKit
-import JGProgressHUD
+
+protocol PaymentCellDelegate {
+    func showPaymentMethods()
+}
 
 class PaymentCell: UITableViewCell {
     @IBOutlet weak var profilePic: UIImageView!
@@ -16,14 +19,9 @@ class PaymentCell: UITableViewCell {
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var requestButton: UIButton!
     
+    var delegate: PaymentCellDelegate?
+    
     @IBAction func requestPressed(_ sender: Any) {
-        let hud: JGProgressHUD = JGProgressHUD(style: .dark)
-        UIView.animate(withDuration: 0.1, animations: {
-            hud.textLabel.text = "Success"
-            hud.detailTextLabel.text = "$1 requested from \(self.nameLabel.text!)"
-            hud.indicatorView = JGProgressHUDSuccessIndicatorView()
-        })
-        hud.show(in: superview!)
-        hud.dismiss(afterDelay: 1.0)
+        delegate?.showPaymentMethods()
     }
 }
