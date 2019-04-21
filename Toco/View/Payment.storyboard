@@ -27,13 +27,13 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tmk-e2-SYu">
-                                            <rect key="frame" x="110" y="23" width="198" height="21"/>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <rect key="frame" x="110" y="15" width="198" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8bq-iO-0kl">
-                                            <rect key="frame" x="324" y="35" width="70" height="30"/>
+                                            <rect key="frame" x="324" y="50" width="70" height="30"/>
                                             <color key="backgroundColor" red="0.098039215686274508" green="0.87058823529411766" blue="0.31372549019607843" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="70" id="UA5-t8-p7r"/>
@@ -53,20 +53,36 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5F3-nA-bm2">
-                                            <rect key="frame" x="110" y="52" width="198" height="21"/>
+                                            <rect key="frame" x="110" y="40" width="198" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4:00-5:00 pm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xb5-wR-Yc9">
+                                            <rect key="frame" x="286" y="15" width="108" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$74" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FYG-3X-xXd">
+                                            <rect key="frame" x="110" y="65" width="32" height="21"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstItem="FYG-3X-xXd" firstAttribute="leading" secondItem="awB-1u-7tY" secondAttribute="trailing" constant="20" id="0Wu-ZC-wZx"/>
+                                        <constraint firstAttribute="trailing" secondItem="Xb5-wR-Yc9" secondAttribute="trailing" constant="20" id="3v1-fE-QJC"/>
+                                        <constraint firstItem="8bq-iO-0kl" firstAttribute="top" secondItem="Xb5-wR-Yc9" secondAttribute="bottom" constant="14" id="7bM-Yq-cPB"/>
+                                        <constraint firstItem="FYG-3X-xXd" firstAttribute="top" secondItem="5F3-nA-bm2" secondAttribute="bottom" constant="4" id="AE0-Bu-rmr"/>
                                         <constraint firstAttribute="trailing" secondItem="8bq-iO-0kl" secondAttribute="trailing" constant="20" id="Bpl-PV-eYo"/>
-                                        <constraint firstItem="8bq-iO-0kl" firstAttribute="centerY" secondItem="MVh-7S-087" secondAttribute="centerY" id="EMI-P7-jXT"/>
+                                        <constraint firstItem="Tmk-e2-SYu" firstAttribute="centerY" secondItem="Xb5-wR-Yc9" secondAttribute="centerY" id="Mac-kW-vy1"/>
                                         <constraint firstItem="Tmk-e2-SYu" firstAttribute="leading" secondItem="awB-1u-7tY" secondAttribute="trailing" constant="20" id="NMs-6g-RR0"/>
                                         <constraint firstItem="8bq-iO-0kl" firstAttribute="leading" secondItem="5F3-nA-bm2" secondAttribute="trailing" constant="16" id="OQL-HL-Zjx"/>
                                         <constraint firstItem="awB-1u-7tY" firstAttribute="centerY" secondItem="MVh-7S-087" secondAttribute="centerY" id="ObS-EF-FUR"/>
-                                        <constraint firstItem="5F3-nA-bm2" firstAttribute="top" secondItem="Tmk-e2-SYu" secondAttribute="bottom" constant="8" id="iaf-I3-Voc"/>
-                                        <constraint firstItem="Tmk-e2-SYu" firstAttribute="top" secondItem="MVh-7S-087" secondAttribute="topMargin" constant="12" id="n5E-d2-SR7"/>
+                                        <constraint firstItem="5F3-nA-bm2" firstAttribute="top" secondItem="Tmk-e2-SYu" secondAttribute="bottom" constant="4" id="iaf-I3-Voc"/>
+                                        <constraint firstItem="Tmk-e2-SYu" firstAttribute="top" secondItem="MVh-7S-087" secondAttribute="topMargin" constant="4" id="n5E-d2-SR7"/>
                                         <constraint firstItem="5F3-nA-bm2" firstAttribute="leading" secondItem="awB-1u-7tY" secondAttribute="trailing" constant="20" id="rin-RQ-VaH"/>
                                         <constraint firstItem="awB-1u-7tY" firstAttribute="leading" secondItem="MVh-7S-087" secondAttribute="leadingMargin" id="ucv-cv-rwW"/>
                                         <constraint firstItem="8bq-iO-0kl" firstAttribute="leading" secondItem="Tmk-e2-SYu" secondAttribute="trailing" constant="16" id="unb-4U-VfK"/>
@@ -75,6 +91,7 @@
                                 <connections>
                                     <outlet property="descriptionLabel" destination="5F3-nA-bm2" id="x9g-d9-vAn"/>
                                     <outlet property="nameLabel" destination="Tmk-e2-SYu" id="FeA-02-ogt"/>
+                                    <outlet property="priceLabel" destination="FYG-3X-xXd" id="jsS-Mh-aha"/>
                                     <outlet property="profilePic" destination="awB-1u-7tY" id="VBE-YR-J7i"/>
                                     <outlet property="requestButton" destination="8bq-iO-0kl" id="DpO-ne-1lS"/>
                                 </connections>
@@ -85,7 +102,9 @@
                             <outlet property="delegate" destination="XPE-zR-qyc" id="ahf-U4-hqt"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Payments" id="jDG-ds-EGO"/>
+                    <navigationItem key="navigationItem" title="Payments" id="jDG-ds-EGO">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="hu7-Ax-2kc"/>
+                    </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="aPayButton" destination="ge9-QE-ZVd" id="X3k-aR-pJ0"/>
@@ -175,7 +194,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="pGX-xV-h0E">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.0" green="0.42352941179999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         </textAttributes>

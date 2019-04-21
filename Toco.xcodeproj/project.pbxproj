@@ -15,6 +15,9 @@
 		B7BCC7FE22653ACD00BA32E0 /* OutreachVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCC7FD22653ACD00BA32E0 /* OutreachVC.swift */; };
 		B7BCC8002265C80500BA32E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7BCC7FF2265C80500BA32E0 /* Assets.xcassets */; };
 		B7BCC8022265CEA400BA32E0 /* TemplateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCC8012265CEA400BA32E0 /* TemplateVC.swift */; };
+		CD38547A226D21E8008B7017 /* VKExpandableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD385479226D21E8008B7017 /* VKExpandableButton.swift */; };
+		CD3905A92266E87F00AF2F20 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3905A82266E87F00AF2F20 /* Profile.storyboard */; };
+		CD3905AB2266E9B700AF2F20 /* Clients.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3905AA2266E9B700AF2F20 /* Clients.storyboard */; };
 		CD81F02222583F28002D6018 /* Clients.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD81F02122583F28002D6018 /* Clients.swift */; };
 		CD96D65A225DACE800183C9E /* ChoosePayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD96D659225DACE800183C9E /* ChoosePayment.swift */; };
 		CDC1F01B2254679E00524E1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1F01A2254679E00524E1C /* AppDelegate.swift */; };
@@ -62,6 +65,9 @@
 		B7BCC7FD22653ACD00BA32E0 /* OutreachVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutreachVC.swift; sourceTree = "<group>"; };
 		B7BCC7FF2265C80500BA32E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7BCC8012265CEA400BA32E0 /* TemplateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateVC.swift; sourceTree = "<group>"; };
+		CD385479226D21E8008B7017 /* VKExpandableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKExpandableButton.swift; sourceTree = "<group>"; };
+		CD3905A82266E87F00AF2F20 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		CD3905AA2266E9B700AF2F20 /* Clients.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Clients.storyboard; sourceTree = "<group>"; };
 		CD81F02122583F28002D6018 /* Clients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clients.swift; sourceTree = "<group>"; };
 		CD96D659225DACE800183C9E /* ChoosePayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePayment.swift; sourceTree = "<group>"; };
 		CDC1F0172254679E00524E1C /* Toco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toco.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -195,11 +201,14 @@
 		CDC1F04822546A4800524E1C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CD385479226D21E8008B7017 /* VKExpandableButton.swift */,
 				CDC1F04C22546A7700524E1C /* Payment.storyboard */,
 				B77A62EE2259A565008950DA /* Discovery.storyboard */,
 				CDC1F05022546AC300524E1C /* Outreach.storyboard */,
 				CDC1F0582254701F00524E1C /* PaymentCell.swift */,
 				CD96D659225DACE800183C9E /* ChoosePayment.swift */,
+				CD3905A82266E87F00AF2F20 /* Profile.storyboard */,
+				CD3905AA2266E9B700AF2F20 /* Clients.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -333,8 +342,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD3905A92266E87F00AF2F20 /* Profile.storyboard in Resources */,
 				CDC1F025225467A000524E1C /* LaunchScreen.storyboard in Resources */,
 				CDC1F05122546AC300524E1C /* Outreach.storyboard in Resources */,
+				CD3905AB2266E9B700AF2F20 /* Clients.storyboard in Resources */,
 				CDC1F0202254679E00524E1C /* Main.storyboard in Resources */,
 				CDC1F04D22546A7700524E1C /* Payment.storyboard in Resources */,
 				B7BCC8002265C80500BA32E0 /* Assets.xcassets in Resources */,
@@ -458,6 +469,7 @@
 				CDC1F0592254701F00524E1C /* PaymentCell.swift in Sources */,
 				B7BCC7FE22653ACD00BA32E0 /* OutreachVC.swift in Sources */,
 				B7BCC8022265CEA400BA32E0 /* TemplateVC.swift in Sources */,
+				CD38547A226D21E8008B7017 /* VKExpandableButton.swift in Sources */,
 				CD81F02222583F28002D6018 /* Clients.swift in Sources */,
 				CDC1F01D2254679E00524E1C /* ViewController.swift in Sources */,
 				CDC1F01B2254679E00524E1C /* AppDelegate.swift in Sources */,
