@@ -23,6 +23,7 @@
 // THE SOFTWARE.
 
 import UIKit
+import ChameleonFramework
 
 typealias OptionSelectionBlock = (_ index: Int) -> Void
 
@@ -44,7 +45,7 @@ class VKExpandableButton: UIView
     var direction: VKExpandableButtonDirection = .Right
     
     var textFont  = UIFont.systemFont(ofSize: 15.0)
-    var textColor = UIColor.black{
+    var textColor = UIColor.black {
         didSet {
             self.button.setTitleColor(self.textColor, for: .normal)
         }
@@ -71,11 +72,9 @@ class VKExpandableButton: UIView
     }
     
     var expandedButtonBackgroundColor = UIColor.white
-    
-    var selectionColor = UIColor.blue
-    {
+    var selectionColor = UIColor(hexString: "#70a6ff") {
         didSet {
-            self.button.setBackgroundImage(UIImage.image(color: selectionColor), for: .highlighted)
+            self.button.setBackgroundImage(UIImage.image(color: selectionColor!), for: .highlighted)
         }
     }
     
@@ -137,7 +136,6 @@ class VKExpandableButton: UIView
         self.button.titleLabel?.font    = self.textFont
         self.button.layer.cornerRadius  = self.cornerRadius
         self.button.backgroundColor     = self.buttonBackgroundColor
-        
         self.button.imageView?.contentMode  = .scaleAspectFit
         self.button.imageEdgeInsets         = self.imageInsets
         
@@ -146,7 +144,7 @@ class VKExpandableButton: UIView
         
         self.button.titleLabel?.adjustsFontSizeToFitWidth = true
         
-        self.button.setBackgroundImage(UIImage.image(color: selectionColor), for: .highlighted)
+        self.button.setBackgroundImage(UIImage.image(color: selectionColor!), for: .highlighted)
         self.button.addTarget(self, action: #selector(VKExpandableButton.showOptions), for: .touchUpInside)
         
         self.addSubview(self.button)
@@ -218,7 +216,7 @@ extension VKExpandableButton
             button.backgroundColor                       = .clear
             button.titleLabel?.adjustsFontSizeToFitWidth = true
             
-            button.setBackgroundImage(UIImage.image(color: self.selectionColor), for: .highlighted)
+            button.setBackgroundImage(UIImage.image(color: self.selectionColor!), for: .highlighted)
             button.addTarget(self, action: #selector(VKExpandableButton.onOptionButtonAction), for: .touchUpInside)
             button.tag = i
             
