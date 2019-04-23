@@ -60,17 +60,14 @@ class OutreachVC:UIViewController {
 
     @objc func didPan(sender: UIPanGestureRecognizer) {
         firstResponder?.resignFirstResponder();
-        let location = sender.location(in: view)
         let translation = sender.translation(in: view)
-        let velocity = sender.velocity(in: view)
         
         sender.view?.transform = CGAffineTransform(translationX: translation.x, y: translation.y)
     }
     
     @objc func didPinch(sender: UIPinchGestureRecognizer) {
          firstResponder?.resignFirstResponder();
-        var scale = sender.scale
-        var velocity = sender.velocity
+        let scale = sender.scale
 
         sender.view?.transform = CGAffineTransform(scaleX: scale, y: scale)
     }
