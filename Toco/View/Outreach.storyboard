@@ -113,6 +113,20 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="het-Q7-t9H" userLabel="Template">
                                         <rect key="frame" x="87" y="163" width="240" height="360"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowOpacity">
+                                                <real key="value" value="0.29999999999999999"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowRadius">
+                                                <integer key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
+                                                <size key="value" width="0.0" height="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mte-qF-4Au" userLabel="Save">
                                         <rect key="frame" x="288" y="650" width="66" height="64"/>
@@ -216,14 +230,28 @@
                                     <constraint firstItem="MAS-u9-KlX" firstAttribute="width" secondItem="plS-8x-Nlw" secondAttribute="width" id="nrG-gS-G87"/>
                                     <constraint firstItem="plS-8x-Nlw" firstAttribute="leading" secondItem="L4N-Os-lBv" secondAttribute="leading" id="osp-QK-60y"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowOpacity">
+                                        <real key="value" value="0.29999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
+                                        <size key="value" width="0.0" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cUM-dG-FM0" userLabel="Content">
                                 <rect key="frame" x="20" y="238" width="374" height="574"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marketing_temp" translatesAutoresizingMaskIntoConstraints="NO" id="4oS-qH-9Oe">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="501"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="501.00000000000023"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="501" id="Gbk-tc-4qS"/>
+                                            <constraint firstAttribute="width" secondItem="4oS-qH-9Oe" secondAttribute="height" multiplier="374:501" id="RmC-Bk-vuO"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
@@ -1018,7 +1046,7 @@ saying?</string>
                                                                 <rect key="frame" x="0.0" y="0.0" width="105" height="140"/>
                                                             </imageView>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="template4" translatesAutoresizingMaskIntoConstraints="NO" id="gqx-0y-oFx">
-                                                                <rect key="frame" x="113" y="0.0" width="105" height="140"/>
+                                                                <rect key="frame" x="113" y="0.0" width="105" height="140.00000000000011"/>
                                                             </imageView>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="template5" translatesAutoresizingMaskIntoConstraints="NO" id="V6I-Ri-cRg">
                                                                 <rect key="frame" x="226" y="0.0" width="105" height="140"/>
