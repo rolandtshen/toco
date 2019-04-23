@@ -221,7 +221,7 @@
                                 <rect key="frame" x="20" y="238" width="374" height="574"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marketing_temp" translatesAutoresizingMaskIntoConstraints="NO" id="4oS-qH-9Oe">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="501.00000000000023"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="501"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="501" id="Gbk-tc-4qS"/>
                                         </constraints>
@@ -1018,7 +1018,7 @@ saying?</string>
                                                                 <rect key="frame" x="0.0" y="0.0" width="105" height="140"/>
                                                             </imageView>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="template4" translatesAutoresizingMaskIntoConstraints="NO" id="gqx-0y-oFx">
-                                                                <rect key="frame" x="113" y="0.0" width="105" height="140.00000000000011"/>
+                                                                <rect key="frame" x="113" y="0.0" width="105" height="140"/>
                                                             </imageView>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="template5" translatesAutoresizingMaskIntoConstraints="NO" id="V6I-Ri-cRg">
                                                                 <rect key="frame" x="226" y="0.0" width="105" height="140"/>

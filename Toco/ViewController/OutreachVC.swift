@@ -47,6 +47,13 @@ class OutreachVC:UIViewController {
     }
     
     @IBAction func saveButtonPressed(_ sender: Any) {
+        let activityViewController = UIActivityViewController(
+            activityItems: [""],
+            applicationActivities: nil)
+
+        
+        activityViewController.popoverPresentationController?.sourceView = self.view
+        self.present(activityViewController, animated: true, completion: nil)
     }
     
     @objc func textTapped(sender: UITapGestureRecognizer) {
