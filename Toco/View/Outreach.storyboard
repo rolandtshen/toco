@@ -107,10 +107,10 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="35"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="9FC-ld-Qyn">
-                                        <rect key="frame" x="20" y="0.0" width="374" height="35"/>
+                                        <rect key="frame" x="20" y="0.0" width="374" height="34"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L9b-Fm-fXJ" userLabel="BackButton">
-                                                <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="35" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="FXt-mv-ed8"/>
                                                     <constraint firstAttribute="width" constant="35" id="x30-nA-bBy"/>
@@ -121,7 +121,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GcV-QU-F3v" userLabel="AddText">
-                                                <rect key="frame" x="69" y="0.0" width="35" height="35"/>
+                                                <rect key="frame" x="69" y="0.0" width="35" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="35" id="Ejh-db-My1"/>
                                                     <constraint firstAttribute="height" constant="35" id="mZr-JR-99A"/>
@@ -133,7 +133,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wXB-ad-F9r" userLabel="Color">
-                                                <rect key="frame" x="137.5" y="0.0" width="30" height="35"/>
+                                                <rect key="frame" x="137.5" y="0.0" width="30" height="34"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="30" id="7U8-WO-HrP"/>
@@ -150,7 +150,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tcR-46-rKT" userLabel="Bold">
-                                                <rect key="frame" x="201.5" y="0.0" width="35" height="35"/>
+                                                <rect key="frame" x="201.5" y="0.0" width="35" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="35" id="mDh-4a-36E"/>
                                                     <constraint firstAttribute="height" constant="35" id="ole-D3-47b"/>
@@ -162,7 +162,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qnL-e4-0oF" userLabel="Itallic">
-                                                <rect key="frame" x="270" y="0.0" width="35" height="35"/>
+                                                <rect key="frame" x="270" y="0.0" width="35" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="Aaz-v7-CLx"/>
                                                     <constraint firstAttribute="width" constant="35" id="is3-j6-KKK"/>
@@ -174,7 +174,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJu-z0-Pgz" userLabel="Menu">
-                                                <rect key="frame" x="339" y="0.0" width="35" height="35"/>
+                                                <rect key="frame" x="339" y="0.0" width="35" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="Eo7-HI-8NH"/>
                                                     <constraint firstAttribute="width" constant="35" id="Va6-2B-ncL"/>
@@ -197,6 +197,7 @@
                                     <constraint firstAttribute="trailing" secondItem="9FC-ld-Qyn" secondAttribute="trailing" constant="20" id="gek-bZ-zWN"/>
                                 </constraints>
                             </view>
+
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -879,6 +880,7 @@
                                                 <size key="value" width="0.0" height="0.0"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+
                                         <connections>
                                             <segue destination="ERl-CK-yCm" kind="show" id="XCL-jj-4uM"/>
                                         </connections>
@@ -916,6 +918,7 @@
         </scene>
         <!--View Controller-->
         <scene sceneID="ELE-EI-6no">
+
             <objects>
                 <viewController id="ERl-CK-yCm" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jIe-36-svu">
@@ -1216,6 +1219,7 @@ saying?</string>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Unx-KO-Mcz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+
             </objects>
             <point key="canvasLocation" x="2010" y="812"/>
         </scene>
@@ -1240,6 +1244,7 @@ saying?</string>
         <image name="template_gif" width="316" height="190"/>
         <image name="template_image" width="324" height="194"/>
         <image name="template_link" width="318" height="192"/>
+        <image name="marketing" width="22" height="21"/>
         <image name="text-icon" width="426" height="512"/>
     </resources>
 </document>

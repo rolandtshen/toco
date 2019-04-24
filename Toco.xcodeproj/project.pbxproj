@@ -18,6 +18,7 @@
 		CD38547A226D21E8008B7017 /* VKExpandableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD385479226D21E8008B7017 /* VKExpandableButton.swift */; };
 		CD3905A92266E87F00AF2F20 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3905A82266E87F00AF2F20 /* Profile.storyboard */; };
 		CD3905AB2266E9B700AF2F20 /* Clients.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3905AA2266E9B700AF2F20 /* Clients.storyboard */; };
+		CD50A31E226FFA7C0052945B /* AdvertisingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD50A31D226FFA7C0052945B /* AdvertisingVC.swift */; };
 		CD81F02222583F28002D6018 /* Clients.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD81F02122583F28002D6018 /* Clients.swift */; };
 		CD96D65A225DACE800183C9E /* ChoosePayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD96D659225DACE800183C9E /* ChoosePayment.swift */; };
 		CDC1F01B2254679E00524E1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1F01A2254679E00524E1C /* AppDelegate.swift */; };
@@ -68,6 +69,7 @@
 		CD385479226D21E8008B7017 /* VKExpandableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKExpandableButton.swift; sourceTree = "<group>"; };
 		CD3905A82266E87F00AF2F20 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		CD3905AA2266E9B700AF2F20 /* Clients.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Clients.storyboard; sourceTree = "<group>"; };
+		CD50A31D226FFA7C0052945B /* AdvertisingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisingVC.swift; sourceTree = "<group>"; };
 		CD81F02122583F28002D6018 /* Clients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clients.swift; sourceTree = "<group>"; };
 		CD96D659225DACE800183C9E /* ChoosePayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePayment.swift; sourceTree = "<group>"; };
 		CDC1F0172254679E00524E1C /* Toco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toco.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -230,6 +232,7 @@
 				CDC1F05622546D5000524E1C /* PaymentVC.swift */,
 				B7BCC7FD22653ACD00BA32E0 /* OutreachVC.swift */,
 				B7BCC8012265CEA400BA32E0 /* TemplateVC.swift */,
+				CD50A31D226FFA7C0052945B /* AdvertisingVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -401,12 +404,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Toco/Pods-Toco-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
 				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,6 +474,7 @@
 				CDC1F0592254701F00524E1C /* PaymentCell.swift in Sources */,
 				B7BCC7FE22653ACD00BA32E0 /* OutreachVC.swift in Sources */,
 				B7BCC8022265CEA400BA32E0 /* TemplateVC.swift in Sources */,
+				CD50A31E226FFA7C0052945B /* AdvertisingVC.swift in Sources */,
 				CD38547A226D21E8008B7017 /* VKExpandableButton.swift in Sources */,
 				CD81F02222583F28002D6018 /* Clients.swift in Sources */,
 				CDC1F01D2254679E00524E1C /* ViewController.swift in Sources */,
