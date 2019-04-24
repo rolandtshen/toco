@@ -11,6 +11,11 @@ import UIKit
 
 class OutreachVC:UIViewController {
     
+    @IBOutlet weak var field1: UITextField!
+    @IBOutlet weak var field2: UITextField!
+    @IBOutlet weak var field3: UITextView!
+    @IBOutlet weak var field4: UITextView!
+    
     @IBOutlet weak var templateView: UITextField!
     
     var views:[UIView] = [UIView]()
@@ -20,7 +25,7 @@ class OutreachVC:UIViewController {
     
     override func viewDidLoad() {
         UIGraphicsBeginImageContext(templateView.frame.size)
-        UIImage(named: "template")?.draw(in: templateView.bounds)
+        UIImage(named: "template-blank")?.draw(in: templateView.bounds)
         let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
         UIGraphicsEndImageContext()
         templateView.backgroundColor = UIColor(patternImage: image)
@@ -29,6 +34,16 @@ class OutreachVC:UIViewController {
         templateView.addGestureRecognizer(UIPanGestureRecognizer(target: self, action: #selector(didPan(sender:))));
         templateView.addGestureRecognizer(UIPinchGestureRecognizer(target: self, action: #selector(didPinch(sender:))));
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tappedView(sender:))))
+        
+        views.append(field1)
+        views.append(field2)
+        views.append(field3)
+        views.append(field4)
+        
+        for view in views {
+            view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(textTapped(sender:))));
+            view.addGestureRecognizer(UIPanGestureRecognizer(target: self, action: #selector(didPan(sender:))));
+        }
     }
     
     @IBAction func textButtonPressed(_ sender: Any) {
