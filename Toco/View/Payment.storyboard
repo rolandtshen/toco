@@ -102,9 +102,7 @@
                             <outlet property="delegate" destination="XPE-zR-qyc" id="ahf-U4-hqt"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Payments" id="jDG-ds-EGO">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="hu7-Ax-2kc"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Payments" id="jDG-ds-EGO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="aPayButton" destination="ge9-QE-ZVd" id="X3k-aR-pJ0"/>
@@ -171,9 +169,9 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ojo-v2-aSn">
-                            <rect key="frame" x="21" y="11" width="37" height="30"/>
+                            <rect key="frame" x="20" y="16" width="20" height="20"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="close"/>
+                            <state key="normal" title="close" backgroundImage="X"/>
                             <connections>
                                 <action selector="closePressed:" destination="CBk-aO-BLG" eventType="touchUpInside" id="XLe-Iu-2Vx"/>
                             </connections>
@@ -189,8 +187,9 @@
         <scene sceneID="foL-Rv-JRy">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rov-n2-aEU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Payments" id="ulJ-XT-NmL"/>
+                    <tabBarItem key="tabBarItem" title="Payments" image="payments" id="2GC-4z-Jdy"/>
                     <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="pGX-xV-h0E">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -214,6 +213,8 @@
         <image name="GPay" width="217" height="87"/>
         <image name="SPay" width="217" height="87"/>
         <image name="Venmo" width="217" height="87"/>
+        <image name="X" width="200" height="200"/>
         <image name="default" width="120" height="120"/>
+        <image name="payments" width="13" height="23"/>
     </resources>
 </document>

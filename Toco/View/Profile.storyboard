@@ -30,7 +30,7 @@
         <scene sceneID="tF1-Ys-1EA">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RJS-2I-niT" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" id="AM5-id-t67"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="profile" id="AM5-id-t67"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SFh-sU-k30">
@@ -47,4 +47,7 @@
             <point key="canvasLocation" x="-120.28985507246378" y="3.3482142857142856"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="profile" width="26" height="26"/>
+    </resources>
 </document>

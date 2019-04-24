@@ -19,6 +19,7 @@ class MapVC: UIViewController, MKMapViewDelegate {
     @IBOutlet weak var detailLabel: UILabel!
     @IBOutlet weak var advertiseButton: UIButton!
     @IBOutlet weak var filterButton: VKExpandableButton!
+    @IBOutlet weak var searchBar: UISearchBar!
     
     var customers: [MKPointAnnotation] = [];
     
@@ -66,7 +67,7 @@ class MapVC: UIViewController, MKMapViewDelegate {
         self.getCustomers()
         self.detailView.isHidden = true
 
-        detailView.layer.cornerRadius = 10
+        detailView.layer.cornerRadius = 15
         advertiseButton.layer.cornerRadius = 7
         filterButton.direction = .Up
         filterButton.options = ["Customers", "Income", "Pop. Density"]
@@ -87,12 +88,24 @@ class MapVC: UIViewController, MKMapViewDelegate {
                 self.getPopulationDensity()
             }
         }
-       
+
+        searchBar.tintColor = .gray
+        if let textfield = searchBar.value(forKey: "searchField") as? UITextField {
+            if let backgroundview = textfield.subviews.first {
+                
+                // Background color
+                backgroundview.backgroundColor = UIColor.white
+                // Rounded corner
+                backgroundview.layer.cornerRadius = 10;
+                backgroundview.clipsToBounds = true;
+            }
+        }
     }
 
     func getCustomers() {
         let customerRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 34.065627, longitude: -118.319373), span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1))
         self.detailView.isHidden = true
+        self.searchBar.isHidden = false
         self.map.removeOverlay(ktownBoundary!)
         self.map.removeOverlay(redondoBoundary!)
         for client:Client in Clients.clients {
@@ -108,6 +121,7 @@ class MapVC: UIViewController, MKMapViewDelegate {
     
     func getIncomeRegions() {
         detailView.isHidden = false
+        self.searchBar.isHidden = true
         placeLabel.text = "North Redondo"
         summaryLabel.text = "has your highest potential for growth"
         detailLabel.text = "Yearly median household income has gone up 43% this year. Demand for tutoring services have grown 22%."
@@ -120,6 +134,7 @@ class MapVC: UIViewController, MKMapViewDelegate {
     
     func getPopulationDensity() {
         detailView.isHidden = false
+        self.searchBar.isHidden = true
         placeLabel.text = "Koreatown"
         summaryLabel.text = "has the most potential customers"
         detailLabel.text = "Holds the highest population density in Los Angeles. 15% of all households in Koreatown hire tutors."
