@@ -16,7 +16,6 @@ class AdvertisingVC: UIViewController {
         let contentInsets = UIEdgeInsets.zero
         self.scrollView.contentInset = contentInsets
         self.scrollView.scrollIndicatorInsets = contentInsets
-        scrollView.contentSize = CGSize(width: 400.0, height: 2300.0)
     }
     @IBAction func purchasePressed(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)

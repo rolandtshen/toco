@@ -48,7 +48,12 @@ class PaymentVC: UITableViewController, UINavigationControllerDelegate, PaymentC
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "paymentCell") as! PaymentCell
         cell.nameLabel.text = clients[indexPath.row].name!
-        cell.descriptionLabel.text = "Tutoring \(clients[indexPath.row].name!)"
+        if(indexPath.row % 2 == 0) {
+            cell.descriptionLabel.text = "Tree trimming"
+        }
+        else {
+            cell.descriptionLabel.text = "Mow \(clients[indexPath.row].name!)'s lawn"
+        }
         cell.priceLabel.text = clients[indexPath.row].notes!
         cell.profilePic.image = clients[indexPath.row].picture
         cell.profilePic.layer.cornerRadius = cell.profilePic.frame.width / 2

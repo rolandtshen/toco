@@ -659,7 +659,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9827U82CZZ;
+				DEVELOPMENT_TEAM = B2N4ZJ4WGF;
 				INFOPLIST_FILE = Toco/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -678,7 +678,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9827U82CZZ;
+				DEVELOPMENT_TEAM = B2N4ZJ4WGF;
 				INFOPLIST_FILE = Toco/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

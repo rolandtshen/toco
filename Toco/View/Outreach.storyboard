@@ -20,10 +20,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GEa-am-tav" userLabel="EditingArea">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="het-Q7-t9H" userLabel="Template">
-                                        <rect key="frame" x="87" y="207" width="240" height="360"/>
+                                        <rect key="frame" x="87" y="182.5" width="240" height="360"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="STOCKTON, CALIFORNIA" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6SX-CM-S7H">
                                                 <rect key="frame" x="56.5" y="90" width="127" height="12"/>
@@ -88,7 +88,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mte-qF-4Au" userLabel="Save">
-                                        <rect key="frame" x="288" y="650" width="66" height="64"/>
+                                        <rect key="frame" x="288" y="601" width="66" height="64"/>
                                         <state key="normal" image="download"/>
                                         <connections>
                                             <action selector="saveButtonPressed:" destination="zec-L0-FjM" eventType="touchUpInside" id="Mw3-yn-Cdv"/>
@@ -107,10 +107,10 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="35"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="9FC-ld-Qyn">
-                                        <rect key="frame" x="20" y="0.0" width="374" height="34"/>
+                                        <rect key="frame" x="20" y="0.0" width="374" height="35"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L9b-Fm-fXJ" userLabel="BackButton">
-                                                <rect key="frame" x="0.0" y="0.0" width="35" height="34"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="FXt-mv-ed8"/>
                                                     <constraint firstAttribute="width" constant="35" id="x30-nA-bBy"/>
@@ -121,7 +121,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GcV-QU-F3v" userLabel="AddText">
-                                                <rect key="frame" x="69" y="0.0" width="35" height="34"/>
+                                                <rect key="frame" x="69" y="0.0" width="35" height="35"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="35" id="Ejh-db-My1"/>
                                                     <constraint firstAttribute="height" constant="35" id="mZr-JR-99A"/>
@@ -133,7 +133,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wXB-ad-F9r" userLabel="Color">
-                                                <rect key="frame" x="137.5" y="0.0" width="30" height="34"/>
+                                                <rect key="frame" x="137.5" y="0.0" width="30" height="35"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="30" id="7U8-WO-HrP"/>
@@ -150,7 +150,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tcR-46-rKT" userLabel="Bold">
-                                                <rect key="frame" x="201.5" y="0.0" width="35" height="34"/>
+                                                <rect key="frame" x="201.5" y="0.0" width="35" height="35"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="35" id="mDh-4a-36E"/>
                                                     <constraint firstAttribute="height" constant="35" id="ole-D3-47b"/>
@@ -162,7 +162,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qnL-e4-0oF" userLabel="Itallic">
-                                                <rect key="frame" x="270" y="0.0" width="35" height="34"/>
+                                                <rect key="frame" x="270" y="0.0" width="35" height="35"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="Aaz-v7-CLx"/>
                                                     <constraint firstAttribute="width" constant="35" id="is3-j6-KKK"/>
@@ -174,7 +174,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJu-z0-Pgz" userLabel="Menu">
-                                                <rect key="frame" x="339" y="0.0" width="35" height="34"/>
+                                                <rect key="frame" x="339" y="0.0" width="35" height="35"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="Eo7-HI-8NH"/>
                                                     <constraint firstAttribute="width" constant="35" id="Va6-2B-ncL"/>
@@ -197,7 +197,6 @@
                                     <constraint firstAttribute="trailing" secondItem="9FC-ld-Qyn" secondAttribute="trailing" constant="20" id="gek-bZ-zWN"/>
                                 </constraints>
                             </view>
-
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -303,10 +302,10 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cUM-dG-FM0" userLabel="Content">
-                                <rect key="frame" x="20" y="238" width="374" height="574"/>
+                                <rect key="frame" x="20" y="238" width="374" height="525"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marketing_temp" translatesAutoresizingMaskIntoConstraints="NO" id="4oS-qH-9Oe">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="501.00000000000023"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="501"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="4oS-qH-9Oe" secondAttribute="height" multiplier="374:501" id="RmC-Bk-vuO"/>
                                         </constraints>
@@ -880,7 +879,6 @@
                                                 <size key="value" width="0.0" height="0.0"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
-
                                         <connections>
                                             <segue destination="ERl-CK-yCm" kind="show" id="XCL-jj-4uM"/>
                                         </connections>
@@ -918,7 +916,6 @@
         </scene>
         <!--View Controller-->
         <scene sceneID="ELE-EI-6no">
-
             <objects>
                 <viewController id="ERl-CK-yCm" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jIe-36-svu">
@@ -937,10 +934,10 @@ saying?</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uxE-4c-LMr" userLabel="Content">
-                                <rect key="frame" x="30" y="238" width="349" height="574"/>
+                                <rect key="frame" x="30" y="238" width="349" height="525"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="   Write your message here..." translatesAutoresizingMaskIntoConstraints="NO" id="wl9-53-4tG" userLabel="Message">
-                                        <rect key="frame" x="0.0" y="0.0" width="349" height="105"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="349" height="56"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <edgeInsets key="layoutMargins" top="20" left="20" bottom="8" right="8"/>
                                         <color key="textColor" red="0.64306563139999995" green="0.64317852259999997" blue="0.6430584788" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -953,7 +950,7 @@ saying?</string>
                                         </userDefinedRuntimeAttributes>
                                     </textView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="VWd-8G-VHv" userLabel="ButtonStack">
-                                        <rect key="frame" x="5" y="110" width="339" height="40"/>
+                                        <rect key="frame" x="5" y="61" width="339" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kHF-dK-Ibc">
                                                 <rect key="frame" x="0.0" y="0.0" width="80" height="40"/>
@@ -986,7 +983,7 @@ saying?</string>
                                         </constraints>
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vaI-Va-9ia" userLabel="TemplateArea">
-                                        <rect key="frame" x="0.0" y="155" width="349" height="419"/>
+                                        <rect key="frame" x="0.0" y="106" width="349" height="419"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g1p-Qo-aH9" userLabel="HotTemplates">
                                                 <rect key="frame" x="0.0" y="49" width="349" height="180"/>
@@ -1108,7 +1105,7 @@ saying?</string>
                                                                 <rect key="frame" x="113" y="0.0" width="105" height="140"/>
                                                             </imageView>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="template5" translatesAutoresizingMaskIntoConstraints="NO" id="V6I-Ri-cRg">
-                                                                <rect key="frame" x="226" y="0.0" width="105" height="140.00000000000011"/>
+                                                                <rect key="frame" x="226" y="0.0" width="105" height="140"/>
                                                             </imageView>
                                                         </subviews>
                                                         <constraints>
@@ -1204,11 +1201,13 @@ saying?</string>
             </objects>
             <point key="canvasLocation" x="4118.840579710145" y="811.60714285714278"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Marketing-->
         <scene sceneID="4yH-Se-fJ7">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6v3-AF-kPg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Marketing" image="marketing" id="QV2-aN-BNZ"/>
                     <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vI6-iv-sRg">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1219,7 +1218,6 @@ saying?</string>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Unx-KO-Mcz" userLabel="First Responder" sceneMemberID="firstResponder"/>
-
             </objects>
             <point key="canvasLocation" x="2010" y="812"/>
         </scene>
@@ -1231,6 +1229,7 @@ saying?</string>
         <image name="groups_checked" width="26" height="28"/>
         <image name="groups_edit" width="36" height="42"/>
         <image name="groups_unchecked" width="28" height="28"/>
+        <image name="marketing" width="22" height="21"/>
         <image name="marketing_temp" width="592" height="788"/>
         <image name="outreach_more" width="74" height="28"/>
         <image name="plus" width="56" height="56"/>
@@ -1244,7 +1243,6 @@ saying?</string>
         <image name="template_gif" width="316" height="190"/>
         <image name="template_image" width="324" height="194"/>
         <image name="template_link" width="318" height="192"/>
-        <image name="marketing" width="22" height="21"/>
         <image name="text-icon" width="426" height="512"/>
     </resources>
 </document>

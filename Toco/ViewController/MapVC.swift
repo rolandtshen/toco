@@ -125,7 +125,7 @@ class MapVC: UIViewController, MKMapViewDelegate {
         placeLabel.text = "North Redondo"
         summaryLabel.text = "has your highest potential for growth"
         detailLabel.text = "Yearly median household income has gone up 43% this year. Demand for tutoring services have grown 22%."
-        let incomeRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 33.887309, longitude: -118.370165), span: MKCoordinateSpan(latitudeDelta: 0.07, longitudeDelta: 0.07))
+        let incomeRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 33.887309, longitude: -118.370165), span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1))
         
         self.map.addOverlay(redondoBoundary!)
         
@@ -138,7 +138,7 @@ class MapVC: UIViewController, MKMapViewDelegate {
         placeLabel.text = "Koreatown"
         summaryLabel.text = "has the most potential customers"
         detailLabel.text = "Holds the highest population density in Los Angeles. 15% of all households in Koreatown hire tutors."
-        let densityRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 34.066068, longitude: -118.300463), span: MKCoordinateSpan(latitudeDelta: 0.03, longitudeDelta: 0.03))
+        let densityRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 34.066068, longitude: -118.300463), span: MKCoordinateSpan(latitudeDelta: 0.06, longitudeDelta: 0.06))
         
         self.map.addOverlay(ktownBoundary!)
         
